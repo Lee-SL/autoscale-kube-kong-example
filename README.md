@@ -37,6 +37,20 @@ terraform apply
 
 Can check the GCP Console under kubernetes engine to see if your cluster is up and running.
 
+## Destroy cluster
+
+To destroy the cluster run: 
+
+```bash
+terraform plan -destroy
+```
+
+After checking if the destroyed resources are ok run:
+
+```bash
+terraform destroy
+```
+
 ### Connect to Kube Cluster from GCP Console
 
 Connecting to your kube cluster directly from gcp cloud console is the easiest way. Use the GCP console navigate to google kubernetes engines page then click connect from your kong-cluster and then press connect using cloud console. Then you should be able to use kubectl commands. 

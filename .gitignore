@@ -1,0 +1,8 @@
+**/terraform.tfstate*
+**/.terraform/
+**/backend.tf
+**/terraform.tfvars
+**/values-*.yaml
+**/key.json
+**/plan
+.DS_Store
